@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Final Project</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body style="background-color: #006241;">
+    <header>
+        <nav class="navbar navbar-expand-lg shadow z-3 align-items-center" aria-label="Global" style="background-color: #967259;">
+            <div class="container-fluid px-4">
+                <a class="navbar-brand" href="index.html">
+                    <img src="https://upload.wikimedia.org/wikipedia/sco/thumb/d/d3/Starbucks_Corporation_Logo_2011.svg/446px-Starbucks_Corporation_Logo_2011.svg.png?20170312192423" style="width: 80px; height: 80px;">
+                </a>
+    
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+    
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav nav-underline">
+                        <a class="nav-link text-white fs-5 fw-bold px-3" aria-current="page" href="menu.html">MENU</a>
+                        <a class="nav-link text-white fs-5 fw-bold px-3" href="index.html">Featured</a>
+                    </div>
+    
+                    <div class="navbar-nav nav-underline ms-auto">
+                        <a class="nav-link disabled text-white fs-5 fw-bold px-3" aria-disabled="true" href="#">Find a Store</a>
+                        <a class="nav-link disabled text-white fs-5 fw-bold px-3" aria-disabled="true" href="#">Sign In</a>
+                        <a class="nav-link disabled text-white fs-5 fw-bold px-3" aria-disabled="true" href="#">Join Now</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="position-relative">
+      <div class="container mx-auto py-5">
+        <h1 class="text-center text-white mb-4">Menu</h1>
+        <nav class="nav nav-tabs mb-4" id="menu-tabs" role="tablist">
+          <button class="nav-link active" id="Drinks-tab" data-bs-toggle="tab" data-bs-target="#Drinks" type="button" role="tab" aria-controls="Drinks" aria-selected="true">
+            Drinks
+          </button>
+          <button class="nav-link" id="food-tab" data-bs-toggle="tab" data-bs-target="#food" type="button" role="tab" aria-controls="food" aria-selected="false">
+            Food
+          </button>
+          <button class="nav-link" id="Home coffee-tab" data-bs-toggle="tab" data-bs-target="#Homecoffe" type="button" role="tab" aria-controls="Homecoffe" aria-selected="false">
+            Home coffee
+          </button>
+        </nav>
+    
+        <div class="tab-content" id="menu-tab-content">
+          <div class="tab-pane fade show active" id="Drinks" role="tabpanel" aria-labelledby="Drinks-tab">
+            <h2 class="mb-3 text-white">
+              Drinks
+            </h2>
+            <div class="row">
+              
+              <div class="col-md-6">
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="https://www.starbucks.com/weblx/images/product-placeholder.png" class="img-fluid rounded-start">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">
+                          Iced Energy
+                        </h5>
+                        <p class="card-text">
+                          A sparkling boost of sugar-free energy, chilled to perfection.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="https://www.starbucks.com/weblx/images/product-placeholder.png" class="img-fluid rounded-start">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">
+                          Cold Coffee
+                        </h5>
+                        <p class="card-text">
+                          Handcrafted in small batches daily, slow-steeped in cool water for 20 hours, 
+                          without touching heat—Starbucks® Cold Brew
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="https://www.starbucks.com/weblx/images/product-placeholder.png" class="img-fluid rounded-start">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">
+                          Hot Coffee
+                        </h5>
+                        <p class="card-text">
+                          These enchanting brews deliver a smooth and invigorating experience that will 
+                          brighten your mornings and elevate your coffee moments.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <div class="tab-pane fade" id="food" role="tabpanel" aria-labelledby="food-tab">
+            <h2 class="mb-3 text-white">
+              Food
+            </h2>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="https://www.starbucks.com/weblx/images/product-placeholder.png" class="img-fluid rounded-start">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">
+                          Hot Breakfast
+                        </h5>
+                        <p class="card-text">
+                          Sizzling applewood-smoked bacon, Parmesan cage-free egg frittata and melted aged Gouda on an artisan roll.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="https://www.starbucks.com/weblx/images/product-placeholder.png" class="img-fluid rounded-start">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">
+                          Bakery
+                        </h5>
+                        <p class="card-text">
+                          Classic soft, chewy and thick New York style bagel. Available with cream cheese or butter.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="https://www.starbucks.com/weblx/images/product-placeholder.png" class="img-fluid rounded-start">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">
+                          Lunch
+                        </h5>
+                        <p class="card-text">
+                          A blend of white Cheddar and mozzarella cheeses on sourdough bread, topped with a Parmesan butter spread.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <div class="tab-pane fade" id="Homecoffe" role="tabpanel" aria-labelledby="Home coffe-tab">
+            <h2 class="mb-3 text-white">
+              Home coffe
+            </h2>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="https://www.starbucks.com/weblx/images/product-placeholder.png" class="img-fluid rounded-start">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">
+                          Whole Bean
+                        </h5>
+                        <p class="card-text">
+                          Rich Molasses & Caramel. First created in 1975, this multi-region blend 
+                          still serves as the foundation of our handcrafted espresso drinks in Starbucks stores around the world. 
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="https://www.starbucks.com/weblx/images/product-placeholder.png" class="img-fluid rounded-start">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">
+                          Instant
+                        </h5>
+                        <p class="card-text">
+                          A mellow blend with a soft and friendly disposition.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+      <footer class="footer py-4 text-white opacity-75">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <h5>Follow Us</h5>
+              <ul class="social-links">
+                <li>
+                    <a class="nav-link" href="#">
+                    Spotify
+                    </a>
+                </li>
+
+                <li>
+                    <a class="nav-link" href="#">
+                        X
+                    </a>
+                </li>
+
+                <li>
+                    <a class="nav-link" href="#">
+                        Instagram
+                    </a>
+                </li>
+
+                <li>
+                    <a class="nav-link" href="#">
+                        YouTube
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About</a>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+          <hr>
+          <p>&copy; 2024 Starbucks Coffee Company. For educational purposes only.</p>
+        </div>
+      </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
